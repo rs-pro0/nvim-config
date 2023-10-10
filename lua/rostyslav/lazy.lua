@@ -35,6 +35,8 @@ require("lazy").setup({
             { 'L3MON4D3/LuaSnip' },     -- Required
         }
     },
-    { 'windwp/nvim-autopairs',    event = "InsertEnter" },
-    { 'simrat39/rust-tools.nvim' }
+    { 'windwp/nvim-autopairs',   event = "InsertEnter" },
+    { 'simrat39/rust-tools.nvim' },
+    { 'peterhoeg/vim-qml' },
+    { 'artoj/qmake-syntax-vim' }
 })
